@@ -50,11 +50,11 @@ namespace TheGameTTHKSharp
 
 			var suurimaEsemeteChar = game.suurimaEsemeteArvuga();
 			if (suurimaEsemeteChar != null)
-            {
+			{
 				Console.WriteLine(suurimaEsemeteChar.info());
 				Console.WriteLine(" ");
 				suurimaEsemeteChar.issueItems();
-            }
+			}
 
 			Console.WriteLine(" ");
 			Console.WriteLine(" ");
@@ -63,10 +63,10 @@ namespace TheGameTTHKSharp
 
 			var suurimaPunktideChar = game.suurimaPunktideArvuga();
 			if (suurimaPunktideChar != null)
-            {
+			{
 				Console.WriteLine(suurimaPunktideChar.info());
 				Console.WriteLine(" ");
-            }
+			}
 
 			Console.ReadKey();
 		}

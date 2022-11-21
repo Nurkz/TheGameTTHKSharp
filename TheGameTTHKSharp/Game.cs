@@ -21,14 +21,14 @@ namespace TheGameTTHKSharp
 			int index = 0;
 #if true
 			for (int i = 0; i < characters.Length; i++)
-            {
+			{
 				var c = characters.ElementAt(i);
 				var comp = c.CompareTo(characters.ElementAt(index));
 				if (comp > 0)
 				{
 					index = i;
 				}
-            }
+			}
 
 			return characters.ElementAt(index);
 #else
